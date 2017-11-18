@@ -1,6 +1,3 @@
-*{
-  border: 1px dotted red;
-}
 header {
   display: flex;
   font-family: Verdana;
@@ -28,4 +25,20 @@ a {
 #logo p {
   color: aquamarine;
   margin-left: 10px;
+}
+
+.collumn {
+  flex-direction: column;
+}
+
+.collumn #left {
+  width: 630px;
+}
+
+.collumn #center {
+  width: 630px;
+}
+
+.collumn #right {
+  width: 630px;
 }
