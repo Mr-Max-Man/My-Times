@@ -30,23 +30,32 @@ a {
   display: flex;
   align-items: center;
 
-
 }
-.collumn {
+
+.column {
   display: inline-flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 240px;
+  border: 2px solid black;
 }
 
-.collumn #left {
-  max-width: 630px;
-  color: red;
+.article {
+  border: 2px solid black;
 }
 
-.collumn #center {
-  max-width: 300px;
+.img-headline {
+  border: 1px solid black;
+}
+#left {
+  width: 630px;
 }
 
-.collumn #right {
-  max-width: 240px;
+#center {
+  width: 300px;
+}
+
+#right{
+  width: 240px;
 }
