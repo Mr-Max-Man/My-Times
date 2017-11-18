@@ -1,6 +1,31 @@
+*{
+  border: 1px dotted red;
+}
 header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+nav span {
+  display: inline-flex;
+  padding: 0px 10px;
+}
+
+a {
+  color: black;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+#logo p {
+  color: aquamarine;
+  margin-left: 10px;
 }
